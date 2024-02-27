@@ -1,0 +1,302 @@
+<html lang="en">
+    <head>
+        <title>
+            Home
+        </title>
+    </head>
+   
+    <style>
+.line1{
+font-size: 70px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: #E2B810;
+margin-top: 50px;
+text-align: center;
+text-shadow: 5px 5px 5px black;
+}
+header,footer{
+color: white;
+position: absolute;
+background-color: #1658de;
+width: 100%;
+box-shadow: 10%;
+box-shadow: 2px 2px 2px black;
+}
+header{
+height: 18vh;
+}
+footer{
+height: 18vh;
+box-shadow: 5px -5px 5px black;
+border-radius: 10px;
+}
+*{
+margin: 0;
+padding: 0;
+color: white;
+}
+
+.footer{
+color: black;
+}
+
+.header1{
+position: absolute;
+margin-top: 10px;
+left: 45%;
+font-weight: 1000;
+font-family: 'Jellee-Roman', sans-serif;
+text-shadow: 1px 1px 2px black;
+text-align: center;
+font-size: 50px;
+}
+.header2{
+position: absolute;
+margin-top: 23px;
+left: 47%;
+
+font-family: 'Courier New', Courier, monospace;
+font-size: large;
+text-shadow: 1px 1px 2px black;
+text-align: center;
+}
+.header3{
+position: absolute;
+text-align: center;
+margin-top: 3.6%;
+left: 45.5%;
+font-family: 'Courier New', Courier, monospace;
+font-size: medium;
+text-shadow: 1px 1px 2px black;
+}
+.buttons{position: absolute;
+width: 100%;
+}
+.buttons a{
+position: relative;
+left: 37%;
+top: 10px;
+color: black;
+text-decoration: none;
+margin-right: 10px;
+font-size: 20px;
+}
+h2.footer{
+position: absolute;
+left: 42%;
+margin-top: 2%;
+text-align: center;
+color: rgb(195, 198, 15);
+text-shadow: 1px 1px 2px black;
+}
+.footerp{
+padding-top: 5%;
+padding-left: 40%;
+color: rgb(195, 198, 15);
+text-shadow: 1px 1px 2px black
+}
+h1.title{
+color: gray;
+}
+hr{
+width: 80%;
+margin: 0 auto;
+}
+button.yes{
+border-radius: 20px;
+width: 100px;
+height: 60px;
+background-color: blue;
+font-family: 'Courier New', Courier, monospace;
+margin-left: 80%;
+margin-bottom: 10%;
+}
+.yesking{
+margin-top: 45px;
+width: 100%;
+}
+img.hi{
+width: 126px;
+height: 63px;
+float: left;
+margin-left: 18%;
+margin-bottom: 1%;
+}
+.short{
+width: 20%;
+}
+button.top{
+width: 100px;
+height: 35px;
+border-radius: 50px;
+background-color: #ff3c00;
+margin-left: 1%;
+margin-bottom: 20%;
+position: absolute;
+float:inherit;
+padding-bottom: 20px;
+}
+.sub-menu1{
+display: none;
+}
+.navbar a:hover .sub-menu1{
+display: block;
+position: absolute;
+background: #1658de;
+margin-top: 15px;
+margin-left: -15px;
+
+}
+.navbar a:hover .sub-menu1 ul{
+display: block;
+margin: 5px;
+}
+ul{
+list-style: none;
+background: #1658de;
+padding-left: 35%;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+box-shadow: 5px 5px 5px black;
+color:  #1658de ;
+margin-top: 5px;
+}
+ul li{
+display: inline-block;
+position: relative;
+}
+ul li a{
+display: block;
+padding: 28px 25px;
+text-decoration: none;
+text-align: center;
+font-size: 18px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+left: 45%;
+float: none;
+border-radius: 10px;
+text-shadow: 1px 1px 2px black;
+}
+ul li ul.dropdownmenu li{
+display: block;
+}
+ul li ul.dropdownmenu{
+width: 80%;
+position: absolute;
+z-index: 999;
+display: none;
+padding-right: 20%;
+padding-left: 20%;
+border-radius: 20px;
+box-shadow: 2px 2px 5px black;
+margin-top: 15px;
+}
+ul li a:hover{
+background: gray;
+height: 10%;
+}
+ul li:hover ul.dropdownmenu{
+display: block;
+}
+ul li ul.dropdownmenu2 li{
+display: block;
+}
+ul li ul.dropdownmenu2{
+width: 100%;
+position: absolute;
+z-index: 999;
+display: none;
+padding-right: 20%;
+padding-left: 20%;
+border-radius: 20px;
+box-shadow: 2px 2px 5px black;
+}
+ul li ul.dropdownmenu2 li{
+display: block;
+}
+ul li:hover ul.dropdownmenu2{
+display: block;
+}
+.big{
+    width: 100%;
+}
+body{
+    background-color: rgb(51, 48, 48);
+}
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color:  #1658de ;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+}   
+li a:hover {
+  background-color: #1658de     ;
+  color: rgb(192, 199, 63);
+}
+p.h1h1h1{
+    text-align: center;
+    margin-top: 55px;
+    font-size: 30;
+    background-color: rgb(5, 52, 47);
+    border-radius: 10px;
+    color: rgb(181, 164, 111);
+}
+.rawr{
+    height: 700px;
+    width: 1000px;
+    margin-left: 250px;
+    border-radius: 10px;
+}
+.h222{
+    margin-top: 35px;
+    text-align: center;
+}
+    </style>
+    <link rel="icon" href="class.jpg">
+    <body>
+        <header>
+            <h2 class="header1" id="section-start"><b>8-Diamond</b></h2>
+            <h4>ICT PT#1
+                Sy. 2023-2024: 8-Diamond
+                By: Klaude Monet G. Sangoyo and John Seong Teh Antopina</h4>
+            <br>
+            <a href="https://www.facebook.com/100003973325265/videos/769866564576332/"><img class="hi" src="bday oppa.jpg" alt=""> <p> <--- CLICK HERE :)) </p></a>
+    <hr class="big">
+            <nav>
+                <ul>
+                    <li><a href="surprise.html">Surpise</a></li>
+                    <li>
+                        <a>Happenings> </a>
+                        <ul class="dropdownmenu">
+                            <li><a href="events.html">Events</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a>Students ></a>
+                        <ul class="dropdownmenu2">
+                            <li><a href="pictures.html" src="">Meet 8-Diamond</a></li>
+                           
+                    </li>
+                </ul>
+            </nav>  
+            <img class="rawr" src="class.jpg" alt="">
+            <h1 class="h222">About Us</h1>
+            <p class="h1h1h1">    Shine Bright Like A Diamond: 8-Diamond Website
+            Within the Sci-Hi corridors, There is always a section filled with love and laughter, everyone’s beloved section 8-Diamond. The purpose of this website is to highlight the different activities and accomplishments of our section. All of our goals, occasions and achievements that have shaped our development we will thrive and grow stronger than ever. The purpose of this website is to act as a documentations of memories and moments for the viewers and those in the 8-Diamond. To celebrate our group accomplishments and to look back at memories that we will cherish forever.
+     </p>
+        </header>
+    
+        </body>
+</html>
